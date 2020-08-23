@@ -1,0 +1,27 @@
+{
+  "name": "UI5IconExtractJS",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./config/webpack.config.js --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "eslint-import-resolver-babel-module": "^5.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "fonteditor-core": "^2.1.1",
+    "svgpath": "^2.3.0"
+  }
+}
